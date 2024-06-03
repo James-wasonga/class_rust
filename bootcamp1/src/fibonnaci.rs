@@ -1,6 +1,6 @@
 //fibonacci
-
-pub fn check(n: u32) -> u32{
+fn main(){
+fn check(n: u32) -> u32{
 
     if n == 0{
         return 1
@@ -20,3 +20,8 @@ pub fn check(n: u32) -> u32{
     }
 }
 
+
+    let result = check(10);
+    println!("{}",result);
+
+}

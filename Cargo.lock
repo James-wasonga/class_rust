@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "Assignment1"
+name = "assignment1"
 version = "0.1.0"
 
 [[package]]
@@ -19,11 +19,27 @@ name = "bootcamp1"
 version = "0.1.0"
 
 [[package]]
+name = "bootcamp2"
+version = "0.1.0"
+
+[[package]]
+name = "class_4"
+version = "0.1.0"
+
+[[package]]
+name = "class_5"
+version = "0.1.0"
+
+[[package]]
 name = "class_rust"
 version = "0.1.0"
 dependencies = [
  "rust_math",
 ]
+
+[[package]]
+name = "practise1"
+version = "0.1.0"
 
 [[package]]
 name = "project"
@@ -45,4 +61,20 @@ version = "0.1.0"
 
 [[package]]
 name = "task2"
+version = "0.1.0"
+
+[[package]]
+name = "task3"
+version = "0.1.0"
+
+[[package]]
+name = "task4"
+version = "0.1.0"
+
+[[package]]
+name = "task5"
+version = "0.1.0"
+
+[[package]]
+name = "task6"
 version = "0.1.0"

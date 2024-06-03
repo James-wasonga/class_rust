@@ -1,108 +1,68 @@
-
-// // fn main(){
-// //     let values = [1.2, 3.4, 8.6];
-// //     let output = array_input(&values);
-// //     println!("{}", output);
- 
-// //  }
-// //  fn array_input(par1:&[f32]) -> f32{
-// //     let mut index = 0;
-// //     let length = par1.len();
-// //     let mut totals = 0.0;
-// //     while index < length{
-// //        index = index + 1;
-// //        totals = totals + par1[index];
-// //     }
-// //  return totals
-// //  }
-
-// // fn main(){
-// //     let array_1 = [1,2,3,6,5,8];
-// //     let total_summation: u32 = summation(&array_1);
-
-// //     println!("The total summation is {}", total_summation);
-
-// //     let mut value: String = String::from("what is this? ");
-// //     let mut called_function: &mut String = &mut string_function(&mut value);
-// //     println!("{}",called_function);
-// // }
-
-// // fn summation(array_1: &[u32]) ->u32{
-// //     let mut sum: u32 = 0;
-// //     for i in array_1{
-// //         sum = sum + 1;
-// //     }
-// //     sum
-// // }
- 
-// // fn string_function(value: & mut String) -> String {
-// //   value.push_str("This is a string");
-// //   value.to_string()
-    
-// // }
-// mod sol;
-
-// struct Rectangle{
-//     width: u32,
-//     height: u32,
-// }
-
-//     impl Rectangle {
-//         fn area(&self) -> u32 {
-//             self.width * self.height
-//         }
-//     }
-
-//     impl Rectangle {
-//         fn can_hold(&self, other: &Rectangle) -> bool {
-//             self.width > other.width && self.height > other.height
-//         }
-    
-//     } 
-//     fn main(){
-//    let rect1 = Rectangle{
-//         width: 20,
-//         height: 30,
-// };
-
-// let rect2 = Rectangle{
-//     width: 10,
-//     height: 20,
-// };
-// let rect3 = Rectangle{
-//     width: 30,
-//     height: 30,
-// };
-
-// println!("The area of rectangle is {}",rect1.area());
-// println!("Is rect1 larger than rect2 {}",rect1.can_hold(&rect2));
-// println!("is rect2 larger than rect3 {}", rect2.can_hold(&rect3));
-    
-// sol::array_input;
-        
-//     }
-
-//importing files
-
-// use rust_math::num::{sqrt,gcd};
-// fn main(){
-//     let result: f32 = sqrt(4.0);
-//     let result2: i32 = gcd(10,50);
-//     println!("result{result}");
-//     println!("result{result2}");
-
-
-// }
-
-
+//! Welcome to Rust 🦀🦀🦀🦀
+//! 
+//! This is the Documentation of my Rust Class containing different solutions and examples in each section
+//!
+//! ## Detailed Introduction
+//! 
+//! This is a detailed into to all the possible concepts in rust programming language with each example to show case the act in each 
+//! 
+//! ## Features
+//! 
+//!
+//!  - [x] This crate section allows you to create various  object and how they work
+//! 
+//! ## Example
+//! - `User` with a field name is assigned to a declared variable `p1` then printed out 
+//! ```
+//! let p1 = User{name: "James".to_string()};
+//! println!("{}", p1.name);
+//!  
+//! ```
+//! - To use a method within our program we use `impl` keyword followed by `method name` and curly brackets `{}`
+//! ```
+//! impl User{
+//! 
+//! }
+//! ```
+//! 
+//! - The function are written by `fn` keyword followed by a `function name` and `()` which may contain parameters and lastly `{}`which holds the function body 
+//! 
+//! ```
+//! fn walk(name){
+//!   println!("User {} is walking",name);
+//!     }
+//! 
+//! ```
+//! 
+//! -For a function to work it must be called using `function name` and passing argurments to it
+//! ```
+//! fn walk(name){
+//! println!("User {} is walking", name);
+//! }
+//! walk("James");
+//! ```
+//! 
+//! Welcome to many **important** concepts in rust 🦀💥⚠️
+//! 
+//! ```
+//! let l :i32 = 54;
+//! 
+//! ```
+//! 
+//! `rust is now`
+//! 
+//! 
 
 
 
 //structs
-
-struct User{
+/// This struct holds the various fileds that the specific user has 
+pub struct User{
+    /// The `name` field represent the declared name which is a `String` 
     name: String,
+    /// `age ` is signed integer of 32 bits 
     age: i32,
+    /// `id_number` field is the id number of the `User` which is of signed integer 
     id_number: i32
 }
 // struct Cars{
@@ -111,7 +71,7 @@ struct User{
 //     model: String,
 // }
 
-impl User{
+ impl User{
     pub fn walk(&self){
         println!("User {} is eating",&self.name)
     }
@@ -126,8 +86,9 @@ impl User{
         return false;
     }
 }
+///All the Arguments and Functions are called within the `main` to enable the program to run
 
-fn main(){
+pub fn main(){
     let James = User{
         name: String::from("James"),
         age: 20,

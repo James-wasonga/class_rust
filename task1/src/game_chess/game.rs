@@ -1,12 +1,12 @@
-pub struct game{
+pub struct Game{
     name: String,
     score: u32,
     level: u32,
 }
 
-impl game{
+impl Game{
     pub fn new(name: String, score: u32, level: u32) -> Self{
-        return game{
+        return Game{
             name,score,level
         }
     }

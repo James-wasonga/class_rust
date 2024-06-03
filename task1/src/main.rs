@@ -1,7 +1,7 @@
 //using a knowledge of struct impl game char
 //character : name , score, level 
 mod game_chess;
-use game_chess::game::game;
+use game_chess::game::Game;
 
 fn main(){
     // let gme1 = game{
@@ -17,7 +17,7 @@ fn main(){
 
     // };
 //print of the level that the play chess is
-let mut result = game::new(String::from("chess"),12,1);
+let mut result = Game::new(String::from("chess"),12,1);
     println!("The game chess is at level {}",result.return_level());
     println!("{}",result.return_level());
     result.increase_level();

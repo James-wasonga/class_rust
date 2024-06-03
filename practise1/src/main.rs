@@ -27,5 +27,5 @@ fn main(){
         }
     }
 
-    println!("The coin is {}",check_in_cent(Penny));
+    println!("The coin is {}",check_in_cent(Penny)); 
 }
