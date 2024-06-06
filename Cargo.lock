@@ -78,3 +78,7 @@ version = "0.1.0"
 [[package]]
 name = "task6"
 version = "0.1.0"
+
+[[package]]
+name = "task7"
+version = "0.1.0"
