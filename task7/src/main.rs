@@ -76,6 +76,11 @@ mod names;
 use names::Person;
 
 fn main(){
+    let numbers = vec![1,3,5,6,4,8];
+    let even_numbers: Vec<i32> = numbers.into_iter().filter(|&x| x % 2 == 0).collect();
+
+    println!("The even number is {:?}",even_numbers);
+
 
     // let my_name = Person::new("James".to_string(),32);
     let my_name = Person{name:"James".to_string(),age:32};

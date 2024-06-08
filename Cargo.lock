@@ -15,11 +15,19 @@ name = "assignment3"
 version = "0.1.0"
 
 [[package]]
+name = "bootcamp"
+version = "0.1.0"
+
+[[package]]
 name = "bootcamp1"
 version = "0.1.0"
 
 [[package]]
 name = "bootcamp2"
+version = "0.1.0"
+
+[[package]]
+name = "bootcamp3"
 version = "0.1.0"
 
 [[package]]
@@ -81,4 +89,12 @@ version = "0.1.0"
 
 [[package]]
 name = "task7"
+version = "0.1.0"
+
+[[package]]
+name = "task8"
+version = "0.1.0"
+
+[[package]]
+name = "task9"
 version = "0.1.0"
