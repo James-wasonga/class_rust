@@ -31,6 +31,10 @@ name = "bootcamp3"
 version = "0.1.0"
 
 [[package]]
+name = "c_to_rust"
+version = "0.1.0"
+
+[[package]]
 name = "class_4"
 version = "0.1.0"
 
@@ -51,6 +55,10 @@ version = "0.1.0"
 
 [[package]]
 name = "practise_1"
+version = "0.1.0"
+
+[[package]]
+name = "practise_2"
 version = "0.1.0"
 
 [[package]]

@@ -30,17 +30,18 @@ trait Summary{
 
 impl Summary for Product{
     fn summary_data(&self){
-         println!("stcok {}, data{}",self.item,self.quantity)
+         println!("stock {}, data{}",self.item,self.quantity)
     }
 
 }
 
 fn main(){
-   let mut vec:Vec<Product> = Vec!::new();
-   let my_product = Product{item: "Pen",quanity: 4};
+   let mut vec:Vec<Product> = Vec::new();
+   let my_product = Product{item: "Pen".to_string(),quantity: 4};
 
-   vec.push(&my_product);
+   vec.push(my_product);
 
    my_product.summary_data();
+
 
 }
