@@ -19,7 +19,7 @@ use core::cell::RefCell;
 #[allow(unused)]
 fn main(){
     let x: String = "Hello".to_string();
-    let m = Rc::new(RefCell::new(x));
+    let m = Rc::new(RefCell::new(x));//allows making a immutable variable to become mutable
 
     let a = Rc::clone(&m);
     let b = Rc::clone(&m);
