@@ -62,6 +62,18 @@ name = "practise_2"
 version = "0.1.0"
 
 [[package]]
+name = "practise_3"
+version = "0.1.0"
+
+[[package]]
+name = "practise_4"
+version = "0.1.0"
+
+[[package]]
+name = "practise_5"
+version = "0.1.0"
+
+[[package]]
 name = "project"
 version = "0.1.0"
 

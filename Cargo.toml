@@ -1,4 +1,4 @@
-workspace = { members = [ "Assignment1", "assignment2", "assignment3", "bootcamp", "bootcamp1", "bootcamp2", "bootcamp3", "c_to_rust", "class_4", "class_5", "practise1", "practise_1", "practise_2","project", "rectangle", "task1", "task2", "task3", "task4", "task5", "task6", "task7", "task8", "task9"] }
+workspace = { members = [ "Assignment1", "assignment2", "assignment3", "bootcamp", "bootcamp1", "bootcamp2", "bootcamp3", "c_to_rust", "class_4", "class_5", "practise1", "practise_1", "practise_2", "practise_3", "practise_4", "practise_5","project", "rectangle", "task1", "task2", "task3", "task4", "task5", "task6", "task7", "task8", "task9"] }
 [package]
 name = "class_rust"
 version = "0.1.0"
